@@ -1,5 +1,14 @@
 # NgVideoGameDb
 
+# Fundamental Concepts
+* Angular components are organized into NgModules
+* NgModules collect related code into functional sets
+* Always has at least a root module that enables bootstrapping, with feature modules.
+* Components define views.
+* Components use services- functionality
+* Service providers can be injected into components as dependencies--makes code reusuable
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
 ## Development server
