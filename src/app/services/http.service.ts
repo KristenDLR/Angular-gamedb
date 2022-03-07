@@ -21,6 +21,7 @@ export class HttpService {
   getGameList(
     ordering:string,
     search?: string
+    //models.ts creates models for APIResponse and Game
   ): Observable<APIResponse<Game>> {
     //default param ordering
     let params = new HttpParams().set('ordering', ordering);
